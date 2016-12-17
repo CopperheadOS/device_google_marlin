@@ -27,7 +27,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
 PRODUCT_NAME := aosp_marlin
 PRODUCT_DEVICE := marlin
 PRODUCT_BRAND := Android
-PRODUCT_MODEL := AOSP on msm8996
+PRODUCT_MODEL := Pixel XL
 PRODUCT_MANUFACTURER := google
 PRODUCT_RESTRICT_VENDOR_FILES := true
 
