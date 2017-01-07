@@ -1,4 +1,9 @@
+ifneq (,$(filter userdebug eng, $(TARGET_BUILD_VARIANT)))
+KERNEL_DEFCONFIG := marlin-debug_defconfig
+else
 KERNEL_DEFCONFIG := marlin_defconfig
+endif
+
 KERNEL_DIR := kernel/google/marlin
 TARGET_KERNEL_APPEND_DTB := true
 
