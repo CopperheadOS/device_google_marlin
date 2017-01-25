@@ -183,7 +183,7 @@ TARGET_USE_MDTP := true
 TARGET_BOARD_KERNEL_HEADERS := device/google/marlin/kernel-headers
 
 # Install odex files into the other system image
-BOARD_USES_SYSTEM_OTHER_ODEX := true
+#BOARD_USES_SYSTEM_OTHER_ODEX := true
 
 -include vendor/google_devices/marlin/BoardConfigVendor.mk
 # Build a separate vendor.img
