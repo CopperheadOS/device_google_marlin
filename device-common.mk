@@ -510,6 +510,10 @@ PRODUCT_PACKAGES += \
      libvts_multidevice_proto
 endif
 
+ifeq ($(OFFICIAL_BUILD),true)
+    PRODUCT_PACKAGES += Updater
+endif
+
 # NFC/camera interaction workaround - DO NOT COPY TO NEW DEVICES
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.camera.notify_nfc=1
