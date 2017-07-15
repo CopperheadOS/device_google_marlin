@@ -514,6 +514,8 @@ ifeq ($(OFFICIAL_BUILD),true)
     PRODUCT_PACKAGES += Updater
 endif
 
+PRODUCT_PACKAGES += SafetyRegulatoryInfo
+
 # NFC/camera interaction workaround - DO NOT COPY TO NEW DEVICES
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.camera.notify_nfc=1
