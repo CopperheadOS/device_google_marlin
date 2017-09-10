@@ -612,6 +612,9 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.vendor.vndk.version=26.1.0 \
 
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.control_privapp_permissions=enforce
+
 PRODUCT_PACKAGES += \
     android.hardware.renderscript@1.0.vndk-sp\
     android.hardware.graphics.allocator@2.0.vndk-sp\
