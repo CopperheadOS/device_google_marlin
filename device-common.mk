@@ -646,3 +646,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # health HAL
 PRODUCT_PACKAGES += \
     android.hardware.health@2.0-service.marlin
+
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.control_privapp_permissions=enforce
