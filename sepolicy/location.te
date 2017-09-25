@@ -32,6 +32,7 @@ allowxperm location self:socket ioctl msm_sock_ipc_ioctls;
 r_dir_file(location, sysfs_type)
 
 allow location proc_net:file r_file_perms;
+allow location proc_net_devroute:file r_file_perms;
 
 # execute /vendor/bin/slim_daemon
 allow location vendor_file:file rx_file_perms;
