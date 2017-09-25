@@ -16,6 +16,7 @@ allow cnss-daemon self:socket create_socket_perms;
 allowxperm cnss-daemon self:socket ioctl msm_sock_ipc_ioctls;
 
 allow cnss-daemon proc_net:file rw_file_perms;
+allow cnss-daemon proc_net_devroute:file rw_file_perms;
 allow cnss-daemon sysfs:dir r_dir_perms;
 allow cnss-daemon sysfs_wifi:dir search;
 allow cnss-daemon sysfs_wifi:file rw_file_perms;
