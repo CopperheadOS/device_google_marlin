@@ -615,6 +615,9 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.control_privapp_permissions=enforce
 
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.randomize_mac=1
+
 PRODUCT_PACKAGES += \
     android.hardware.renderscript@1.0.vndk-sp\
     android.hardware.graphics.allocator@2.0.vndk-sp\
