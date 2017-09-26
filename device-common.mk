@@ -648,4 +648,7 @@ PRODUCT_PACKAGES += \
     android.hardware.health@2.0-service.marlin
 
 PRODUCT_PROPERTY_OVERRIDES += \
+    ro.randomize_mac=1
+
+PRODUCT_PROPERTY_OVERRIDES += \
     ro.control_privapp_permissions=enforce
