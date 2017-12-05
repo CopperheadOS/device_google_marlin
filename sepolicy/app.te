@@ -1,5 +1,5 @@
 # Only allow gpu ioctl commands that have been demonstrated to be necessary.
-allowxperm { appdomain -isolated_app } gpu_device:chr_file
+allowxperm { appdomain -isolated_app -isolated_base_app } gpu_device:chr_file
   ioctl { gpu_ioctls unpriv_tty_ioctls };
 
 allow appdomain sysfs_soc:dir search;
