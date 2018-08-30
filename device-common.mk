@@ -573,8 +573,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     device/google/marlin/default-permissions.xml:$(TARGET_COPY_OUT_VENDOR)/etc/default-permissions/default-permissions.xml
 
-PRODUCT_COPY_FILES += \
-    branding/bootanimation.zip:system/media/bootanimation.zip
+-include branding/branding.mk
 
 # A/B OTA dexopt package
 PRODUCT_PACKAGES += otapreopt_script
