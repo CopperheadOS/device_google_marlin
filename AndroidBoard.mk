@@ -6,9 +6,6 @@ endif
 
 KERNEL_DIR := kernel/google/marlin
 TARGET_KERNEL_APPEND_DTB := true
-TARGET_KERNEL_ARCH := arm64
-TARGET_KERNEL_CROSS_COMPILE_PREFIX := aarch64-linux-android-
-TARGET_KERNEL_CLANG_TRIPLE := aarch64-linux-gnu-
 
 include $(TOP)/$(KERNEL_DIR)/AndroidKernel.mk
 
